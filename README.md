@@ -105,5 +105,7 @@ adaptive_threshold = mean(recent_probs) + factor × std(recent_probs)
 - 저주파/고주파 필터링
 - Butterworth 필터 적용
 
+### 4. 논문
+https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003261133
 
 
