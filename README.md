@@ -20,6 +20,9 @@ Input Audio → CNN (Feature Extraction) → RNN (Temporal Pattern) → Classifi
               └─ MaxPooling
 ```
 
+<img width="280" height="389" alt="image" src="https://github.com/user-attachments/assets/39bf3340-6246-44c4-b93d-a5a54b932615" />
+
+
 ## 요구사항
 
 ```
@@ -103,4 +106,5 @@ adaptive_threshold = mean(recent_probs) + factor × std(recent_probs)
 - RMS 정규화
 - 저주파/고주파 필터링
 - Butterworth 필터 적용
+
 
